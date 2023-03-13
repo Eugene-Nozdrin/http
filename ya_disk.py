@@ -30,5 +30,9 @@ class YandexDisk:
             print("Success")
 
 
+if __name__ == '__main__':
+    ya = YaUploader(token="")
+    ya.upload_file_to_disk("Новая папка/1.txt", "1txt.txt")
+
 
 
